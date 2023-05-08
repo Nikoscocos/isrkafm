@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>ISKRA✪FM Deep House Radio</title>
+
+        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+        <link rel="manifest" href="/site.webmanifest">
+        <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+        <link rel="stylesheet" href="style.css">
+        
+        <script src="./src/lunaradio.min.js"></script>
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="msapplication-TileColor" content="#da532c">
+        <meta name="theme-color" content="#000000">
+
+        <link href="https://fonts.googleapis.com/css2?family=Rubik+Vinyl&amp;display=swap" rel="stylesheet">
+    </head>
+    <body style="opacity: 1;">
+        <script>
+            window.onload = function() {
+                document.body.style.opacity = '1';
+            }
+        </script>
+        <nav>
+            <div class="maindiv">
+                <div inline="">
+                    <a href="">
+                        <img class="navlogo" src="src/logo.png">
+                        <p class="navlogoname">ISKRA✪FM</p>
+                    </a>
+                </div>
+                <div class="navright">
+                    <div>
+                        <a href="#aboutUs" class="navbtn1">О нас</a>
+                        <a target="_blank" href="https://donatty.com/iskrafm" class="navbtn2">Поддержать</a>
+                        <a href="#aboutUs" class="navbtn3" hidmob>Свяжитесь с нами!</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <video autoplay mute loop class="videocover">
+            <source src="./src/vid2.mp4">
+        </video>
+        <div class="maintitle">
+            <p id="rubik" class="p1">ISKRAFM Deep House Radio</p>
+            <br><br>
+            <div id="mylunaradio" style="border-radius: 40px;margin: auto;margin-top: 15px;height: 80px;width: calc(100% - 32px);max-width: 800px;margin-bottom: 30px;"></div>
+            <div class="m100">
+                <a target="_blank" href="https://play.google.com/store/apps/details?id=com.ISKRA.FM"><img src="./src/android.png"></a>
+            </div>
+            <script>
+                lunaRadio("mylunaradio", {
+                    token: "yourtoken",
+                    radioname: "ISKRA✪FM Deep House Radio",
+                    scrollradioname: "left",
+                    scrolltitle: "right",
+                    coverimage: "./src/logo.png",
+                    onlycoverimage: "false",
+                    coverstyle: "circle",
+                    usevisualizer: "fake",
+                    streamurl: "https://c32.radioboss.fm:8309/stream", 
+                    streamtype: "other",
+                    metadatatechnic: "stream-icy-meta",
+                    streamsuffix: "#",
+                    volume: "70",
+                    debug: "false",
+                    uselocalstorage: "false",
+                    userinterface: "small",
+                    backgroundcolor: "#0e1015",
+                    fontcolor: "#ffffff",
+                    hightlightcolor: "#fa225b",
+                    usestreamcorsproxy: "false", 
+                    corsproxy: "",
+                    autoplay: "false",
+                    displayliveicon: "true",
+                    displayvisualizericon: "true",
+                    multicolorvisualizer: "false",
+                    color1: "#e66c35",
+                    color2: "#d04345",
+                    color3: "#85a752",
+                    color4: "#067dcc",
+                    visualizeropacity: "0.4",
+                    visualizerghost: "0.0"
+                });
+            </script>
+            <div class="infoblock" id="aboutUs">
+                <div class="ininfoblock">
+                    <div class="frontedleft">
+                        <p id="rubik" class="volatile">About us</p><br>
+                        <p class="textblock">
+                            Связка мягкой компрессии и правильно настроенного эквалайзера придает Дип Хаусу гармоничной окрашенности. Глубокие низкие и кристально прозрачные верхние частоты дают по-настоящему атмосферное звучание (полный эффект при прослушивании в хороших наушниках) которое отличает ISKRA✪FM | DEEP RADIO от аналогичных станций электронной музыки.
+                            <br><br>
+                            Мы не стремимся быть первыми или лучшими из лучших, мы ценим всех кто уже не первый год в эфире и тех кто только начинает. Наша миссия дать ценителям электронной House музыки и ее поджанру Deep House лучшее из лучшего, показать им каким должен быть настоящий Дип и как он может звучать по-настоящему.
+                            <br><br>
+                            Мы работаем напрямую с диджеями и исполнителями данного направления что дает вам возможность быть в числе первых кто услышит новые релизы. Так же мы стараемся поддерживать начинающих и малоизвестных музыкантов, диджеев и вокалистов, мы всегда готовы к сотрудничеству.
+                            <br><br>
+                            Наши амбиции неизменны. Мы ценим качество и оно у нас есть.
+                        </p>
+                    </div>
+                    <div class="frontedright">
+                        <p id="rubik" class="volatile">Contact</p><br>
+                        <div flexed>
+                            <a target="_blank" href="https://vk.com/iskra_fm">
+                                <svg class="vk-icon-svg" enable-background="new 0 0 112.196 112.196" version="1.1" viewBox="0 0 112.196 112.196" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                    <style>
+                                        .vk-icon-svg:hover .vk-circle {
+                                            fill: #7598bd;
+                                        }
+                                        .vk-circle {
+                                            fill: #4D76A1;
+                                        }
+                                        .vk-text {
+                                            fill-rule: evenodd;
+                                            clip-rule: evenodd;
+                                            fill: #FFFFFF;
+                                        }
+                                    </style>
+                                    <circle class="vk-circle" cx="56.098" cy="56.098" r="56.098"></circle>
+                                    <path class="vk-text" d="M53.979,80.702h4.403c0,0,1.33-0.146,2.009-0.878   c0.625-0.672,0.605-1.934,0.605-1.934s-0.086-5.908,2.656-6.778c2.703-0.857,6.174,5.71,9.853,8.235   c2.782,1.911,4.896,1.492,4.896,1.492l9.837-0.137c0,0,5.146-0.317,2.706-4.363c-0.2-0.331-1.421-2.993-7.314-8.463   c-6.168-5.725-5.342-4.799,2.088-14.702c4.525-6.031,6.334-9.713,5.769-11.29c-0.539-1.502-3.867-1.105-3.867-1.105l-11.076,0.069   c0,0-0.821-0.112-1.43,0.252c-0.595,0.357-0.978,1.189-0.978,1.189s-1.753,4.667-4.091,8.636c-4.932,8.375-6.904,8.817-7.71,8.297   c-1.875-1.212-1.407-4.869-1.407-7.467c0-8.116,1.231-11.5-2.397-12.376c-1.204-0.291-2.09-0.483-5.169-0.514   c-3.952-0.041-7.297,0.012-9.191,0.94c-1.26,0.617-2.232,1.992-1.64,2.071c0.732,0.098,2.39,0.447,3.269,1.644   c1.135,1.544,1.095,5.012,1.095,5.012s0.652,9.554-1.523,10.741c-1.493,0.814-3.541-0.848-7.938-8.446   c-2.253-3.892-3.954-8.194-3.954-8.194s-0.328-0.804-0.913-1.234c-0.71-0.521-1.702-0.687-1.702-0.687l-10.525,0.069   c0,0-1.58,0.044-2.16,0.731c-0.516,0.611-0.041,1.875-0.041,1.875s8.24,19.278,17.57,28.993   C44.264,81.287,53.979,80.702,53.979,80.702L53.979,80.702z"></path>
+                                </svg>
+                            </a>
+                            <a target="_blank" href="https://www.youtube.com/channel/UC-d3Y___TqJzEcRK2wEhL2A">
+                                <svg enable-background="new 0 0 48 48" class="youtube-svg-icon" version="1.1" viewBox="0 0 48 48" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                    <style>
+                                        .youtube-outer {
+                                            fill: #CA3737;
+                                        }
+
+                                        .youtube-svg-icon:hover .youtube-outer {
+                                            fill: red;
+                                        }
+
+                                        .youtube-inner {
+                                            fill: #FFFFFF;
+                                        }
+                                    </style>
+                                    <circle cx="24" cy="24" class="youtube-outer" r="24"></circle>
+                                    <path class="youtube-inner" d="M35.2,18.5c0-0.1,0-0.2-0.1-0.3c0,0,0-0.1,0-0.1c-0.3-0.9-1.1-1.5-2.1-1.5h0.2c0,0-3.9-0.6-9.2-0.6  c-5.2,0-9.2,0.6-9.2,0.6H15c-1,0-1.8,0.6-2.1,1.5c0,0,0,0.1,0,0.1c0,0.1,0,0.2-0.1,0.3c-0.1,1-0.4,3.1-0.4,5.5  c0,2.4,0.3,4.5,0.4,5.5c0,0.1,0,0.2,0.1,0.3c0,0,0,0.1,0,0.1c0.3,0.9,1.1,1.5,2.1,1.5h-0.2c0,0,3.9,0.6,9.2,0.6  c5.2,0,9.2-0.6,9.2-0.6H33c1,0,1.8-0.6,2.1-1.5c0,0,0-0.1,0-0.1c0-0.1,0-0.2,0.1-0.3c0.1-1,0.4-3.1,0.4-5.5  C35.6,21.6,35.4,19.5,35.2,18.5z M27.4,24.5l-4.7,3.4C22.6,28,22.5,28,22.4,28c-0.1,0-0.2,0-0.3-0.1c-0.2-0.1-0.3-0.3-0.3-0.5v-6.8  c0-0.2,0.1-0.4,0.3-0.5c0.2-0.1,0.4-0.1,0.6,0l4.7,3.4c0.1,0.1,0.2,0.3,0.2,0.5C27.7,24.2,27.6,24.4,27.4,24.5z"></path>
+                                </svg>
+                            </a>
+                            <svg class="telegram-icon-svg" style="enable-background:new 0 0 512 512;width: 96px;height: 96px;" version="1.1" viewBox="0 0 512 512" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                <style>
+                                    .st0 {
+                                        fill: #2babdf;
+                                    }
+                                    .telegram-icon-svg:hover .st0 {
+                                        fill: #0f94c1;
+                                    }
+                                    .st1 {
+                                        fill: #FFFFFF;
+                                    }
+                                    .st2 {
+                                        fill: #D2E4F0;
+                                    }
+                                    .st3 {
+                                        fill: #B5CFE4;
+                                    }
+                                </style>
+                                <linearGradient gradientUnits="userSpaceOnUse" x1="256" x2="256" y1="0" y2="510.1322">
+                                    <stop offset="0" style="stop-color:#41BCE7"></stop>
+                                    <stop offset="1" style="stop-color:#22A6DC"></stop>
+                                </linearGradient>
+                                <circle class="st0" cx="256" cy="256" r="256"></circle>
+                                <path class="st1" d="M380.6,147.3l-45.7,230.5c0,0-6.4,16-24,8.3l-105.5-80.9L167,286.7l-64.6-21.7c0,0-9.9-3.5-10.9-11.2    c-1-7.7,11.2-11.8,11.2-11.8l256.8-100.7C359.5,141.2,380.6,131.9,380.6,147.3z"></path>
+                                <path class="st2" d="M197.2,375.2c0,0-3.1-0.3-6.9-12.4c-3.8-12.1-23.3-76.1-23.3-76.1l155.1-98.5c0,0,9-5.4,8.6,0    c0,0,1.6,1-3.2,5.4c-4.8,4.5-121.8,109.7-121.8,109.7"></path>
+                                <path class="st3" d="M245.8,336.2l-41.7,38.1c0,0-3.3,2.5-6.8,0.9l8-70.7"></path>
+                            </svg>
+                        </div>
+                        <div class="infoblock2">
+                            <p class="m5">Instagram: <a href="https://www.instagram.com/iskra_fm/" colorlink>@iskra_fm</a></p><br>
+                            <p>E-mail: <a href="mailto:info@iskrafm.com" colorlink>info@iskrafm.com</a></p>
+                        </div>
+                        <a target="_blank" href="https://play.google.com/store/apps/details?id=com.ISKRA.FM">
+                            <img src="./src/android.png" playstorelink>
+                        </a>
+                        <div class="m30">
+                            <img src="./src/cover1.jpg" class="coverim1"><br>
+                            <img src="./src/cover2.jpg" class="coverim2">
+                            <img src="./src/cover3.jpg" class="coverim3">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

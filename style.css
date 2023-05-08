@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+body, html {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    background-color: #000000;
+    color: white;
+    transition: 0.5;
+}
+nav {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    position: relative;
+    z-index: 10;
+}
+nav .maindiv {
+    width: 100%;
+    max-width: 1200px;
+}
+.navlogo {
+    width: 48px;
+    height: 48px;
+    object-fit: cover;
+    float: left;
+}
+#rubik {
+    font-family: 'Rubik Vinyl', cursive;
+}
+p {
+    display: inline-block;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+.navlogoname {
+    font-size: 25px;
+    margin-top: 6px;
+    margin-left: 10px;
+}
+.navright {
+    float: right;
+}
+.navright div {
+    display: flex;
+}
+.navright a {
+    padding: 12px 14px;
+    margin-left: 10px;
+}
+[inline] {
+    display: inline-block;
+}
+.navbtn1 {
+    background: #12a0af;
+    border-radius: 25px;
+    color: white;
+}
+.navbtn2 {
+    background: #959527;
+    border-radius: 25px;
+}
+.navbtn3 {
+    background: #b1abab;
+    border-radius: 25px;
+    color: white;
+}
+.videocover {
+    position: absolute;
+    width: 100%;
+    opacity: 0.5;
+    min-height: 620px;
+    top: 0;
+    object-fit: cover;
+}
+.maintitle {
+    margin-top: 120px;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+}
+.p1 {
+    font-size: 80px;
+    max-width: 900px;
+    text-shadow: black 5px 5px;
+}
+.m100 {
+    margin-bottom: 100px;
+}
+.infoblock {
+    width: calc(100% - 160px);
+    background: black;
+    padding: 20px 80px;
+    text-align: left;
+    display: flex;
+    justify-content: center;
+}
+.ininfoblock {
+    max-width: 1100px;
+    display: flex;
+}
+.frontedleft {
+    width: calc(50% - 70px);
+    padding-right: 70px;
+}
+.volatile {
+    font-size: 80px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    text-shadow: 1px 1px 2px red, 0 0 1em #ff00d4, 0 0 0.2em #c91f5e;
+}
+.textblock {
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 10px;
+    text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
+}
+.frontedright {
+    width: 50%;
+}
+[flexed] {
+    display: flex;
+}
+.frontedright svg {
+    width: 96px;
+    height: 96px;
+    margin-right: 10px;
+}
+.infoblock2 {
+    margin-top: 20px;
+    font-size: 20px;
+}
+.m5 {
+    margin-bottom: 5px;
+}
+[colorlink] {
+    color: #b2b2ff;
+}
+[playstorelink] {
+    margin-top: 30px;
+    border: 1px solid #121212;
+    border-radius: 8px;
+}
+.m30 {
+    margin-top: 30px;
+}
+.coverim1 {
+    width: 250px;
+    border-radius: 80px 0px;
+}
+.coverim2 {
+    width: 70%;
+    float: right;
+    border-radius: 0px 100px;
+    margin-top: -80px;
+}
+.coverim3 {
+    width: 30%;
+    border-radius: 50px 0px;
+}
+
+@media screen and (max-width: 640px) {
+    .navlogo {
+        width: 32px;
+        height: 32px;
+        object-fit: cover;
+        float: left;
+    }
+    .navlogoname {
+        font-size: 18px;
+        margin-top: 3px;
+        margin-left: 10px;
+    }
+    .p1 {
+        font-size: 54px;
+        max-width: 900px;
+        padding: 20px;
+        text-shadow: black 5px 5px;
+    }
+    .maintitle {
+        margin-top: 20px;
+        position: absolute;
+        width: 100%;
+        text-align: center;
+    }
+    .navright a {
+        margin-left: 3px;
+        font-size: 13px;
+        padding: 6px;
+        background: transparent !important;
+    }
+    .volatile {
+        font-size: 58px;
+    }
+    .textblock {
+        font-size: 16px;
+        line-height: 23px;
+    }
+    .ininfoblock {
+        display: block;
+    }
+    [hidmob] {
+        display: none;
+    }
+    .frontedleft {
+        width: 100%;
+        padding-right: 0px;
+    }
+    .frontedright {
+        width: 100%;
+    }
+}
